@@ -16,7 +16,7 @@ public class Enemy extends Mob implements IRenderable {
     private void initAnimationController() {
         IAnimationController controller = this.getControllers().getAnimationController();
         Spritesheet prepare = Resources.spritesheets().get("Sprite_Cannon_1");
-        controller.add(new Animation(prepare, false, 500, 500, 1000));
+        controller.add(new Animation(prepare, false));
     }
 
     @Override

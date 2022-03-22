@@ -338,3 +338,77 @@ java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
 	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
 	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
 
+Mar 22, 2022 3:23:22 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:23:22 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 3:24:16 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:24:17 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 3:25:34 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:25:34 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 3:25:41 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:26:46 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:26:52 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:26:53 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 3:29:08 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
