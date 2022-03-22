@@ -1,526 +1,340 @@
-Mar 12, 2022 6:50:03 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+Mar 22, 2022 2:16:52 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:17:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:17:41 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:18:38 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:18:52 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:19:57 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:22:34 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:23:00 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:23:12 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:30:37 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:30:37 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
 SEVERE: Game crashed! :(
-de.gurkenlabs.litiengine.resources.ResourceLoadException: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException
-	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:391)
-	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
-	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:273)
-	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:207)
-	at de.gurkenlabs.litiengine.environment.Environment.<init>(Environment.java:149)
-	at Program.main(Program.java:9)
-Caused by: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException
-	at de.gurkenlabs.litiengine.resources.Maps.load(Maps.java:112)
-	at de.gurkenlabs.litiengine.resources.Maps.load(Maps.java:32)
-	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:389)
-	... 5 more
-Caused by: javax.xml.bind.UnmarshalException
- - with linked exception:
-[java.io.FileNotFoundException: C:\Development\LitiTest\..\TileMaps\TestMap.tmx (The system cannot find the path specified)]
-	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:231)
-	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:199)
-	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:170)
-	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:175)
-	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:184)
-	at de.gurkenlabs.litiengine.util.io.XmlUtilities.read(XmlUtilities.java:99)
-	at de.gurkenlabs.litiengine.resources.Maps.load(Maps.java:110)
-	... 7 more
-Caused by: java.io.FileNotFoundException: C:\Development\LitiTest\..\TileMaps\TestMap.tmx (The system cannot find the path specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:653)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:861)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
-	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
-	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:228)
-	... 13 more
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+	at de.gurkenlabs.litiengine.environment.Environment.registerMapObjectLoader(Environment.java:173)
+	at Program.main(Program.java:52)
 
-Mar 12, 2022 6:50:26 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+Mar 22, 2022 2:31:35 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:38:03 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:50:33 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 2:50:33 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
 SEVERE: Game crashed! :(
-de.gurkenlabs.litiengine.resources.ResourceLoadException: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException
-	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:391)
-	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
-	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:273)
-	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:207)
-	at de.gurkenlabs.litiengine.environment.Environment.<init>(Environment.java:149)
-	at Program.main(Program.java:9)
-Caused by: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException
-	at de.gurkenlabs.litiengine.resources.Maps.load(Maps.java:112)
-	at de.gurkenlabs.litiengine.resources.Maps.load(Maps.java:32)
-	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:389)
-	... 5 more
-Caused by: javax.xml.bind.UnmarshalException
- - with linked exception:
-[java.io.FileNotFoundException: C:\Development\LitiTest\TileMaps\TestMap.tmx (The system cannot find the path specified)]
-	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:231)
-	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:199)
-	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:170)
-	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:175)
-	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:184)
-	at de.gurkenlabs.litiengine.util.io.XmlUtilities.read(XmlUtilities.java:99)
-	at de.gurkenlabs.litiengine.resources.Maps.load(Maps.java:110)
-	... 7 more
-Caused by: java.io.FileNotFoundException: C:\Development\LitiTest\TileMaps\TestMap.tmx (The system cannot find the path specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
-	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:653)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:861)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
-	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
-	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:228)
-	... 13 more
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
 
-Mar 12, 2022 6:50:44 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:51:18 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 6:51:09 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:51:18 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 2:51:30 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 6:51:44 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:51:31 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 2:51:40 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 6:52:01 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:52:27 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 2:54:22 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 6:52:42 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:54:22 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 2:54:47 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 6:54:11 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:54:48 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 2:55:00 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:55:01 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 2:55:25 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:39 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:40 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:41 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:42 PM de.gurkenlabs.litiengine.resources.Fonts load
-SEVERE: font file:/C:/Development/LitiTest/customfont.ttf could not be loaded
-Mar 12, 2022 6:57:52 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:56:35 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 6:59:00 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:56:36 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 2:56:46 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 6:59:07 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:56:47 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 2:57:06 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 6:59:27 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:57:06 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 2:59:09 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 6:59:37 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:59:09 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 2:59:17 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 6:59:49 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 2:59:48 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 3:00:30 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:00:18 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 3:01:40 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:00:28 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 3:01:41 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 3:02:04 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:01:09 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 3:02:05 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 3:03:36 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:01:19 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 3:03:37 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 3:04:17 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:01:28 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 3:04:18 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+Mar 22, 2022 3:04:28 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:04:26 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+Mar 22, 2022 3:04:29 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException: Cannot invoke "de.gurkenlabs.litiengine.graphics.Spritesheet.getName()" because "spritesheet" is null
+	at de.gurkenlabs.litiengine.graphics.animation.Animation.<init>(Animation.java:91)
+	at Enemy.initAnimationController(Enemy.java:19)
+	at Enemy.updateAnimationController(Enemy.java:25)
+	at de.gurkenlabs.litiengine.entities.Creature.setSpritesheetName(Creature.java:212)
+	at de.gurkenlabs.litiengine.entities.Creature.<init>(Creature.java:77)
+	at de.gurkenlabs.litiengine.entities.Creature.<init>(Creature.java:52)
+	at Mob.<init>(Mob.java:3)
+	at Enemy.<init>(Enemy.java:12)
+	at Program.main(Program.java:38)
+
+Mar 22, 2022 3:05:18 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:04:45 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:04:51 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:05:04 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:05:16 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:05:52 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:07:07 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 12, 2022 7:17:50 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 1:39:36 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 1:52:30 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 1:59:34 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:00:22 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:00:32 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:00:55 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:01:12 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:02:12 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:02:24 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:05:32 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:06:47 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:06:55 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:07:50 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:08:17 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:09:36 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:10:02 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:10:06 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:10:30 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
-Mar 18, 2022 2:10:41 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
-WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:05:19 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:138)
+	at de.gurkenlabs.litiengine.graphics.Spritesheet.getSprite(Spritesheet.java:130)
+	at de.gurkenlabs.litiengine.graphics.animation.AnimationController.getCurrentImage(AnimationController.java:200)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntity(RenderEngine.java:495)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderEntities(RenderEngine.java:445)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2468)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2299)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:25)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:123)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:92)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<litidata version="1.0">
+ <maps/>
+ <spriteSheets>
+  <sprite width="32" height="32" imageformat="PNG" name="Sprite_Cannon_1">
+   <image>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAoklEQVR4Xu2RSw6AIAxEOaA344rew6WKkaR5KWgqHxd9SUMROjNqCEZijPu5XHX3Y/EAHsADTA0gzXMNDeEBpgXY1uUyqlW6w7kmSAOaamec/0TJKK2y5z3qmKGwNJchWNQxQ+EcQOuHBOBbc981gPbPtWddAmimtZ46ZijMfemMOmZoQNPSOXXMUDwbyOJ5Kup8guJPX4DzTXgbgHOO4/yaA9IgMesC7ua1AAAAAElFTkSuQmCC</image>
+  </sprite>
+ </spriteSheets>
+ <tilesets/>
+ <emitters/>
+ <blueprints/>
+ <sounds/>
+</litidata>
