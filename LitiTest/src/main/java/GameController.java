@@ -8,8 +8,14 @@ import javax.rmi.ssl.SslRMIClientSocketFactory;
 
 public class GameController{
 
+    public static Player player;
+    public static TowerSpawner towerSpawner;
+
     public static void init(){
         CreatureMapObjectLoader.registerCustomCreatureType(Enemy.class);
+        CreatureMapObjectLoader.registerCustomCreatureType(Player.class);
+
+        towerSpawner = new TowerSpawner();
     }
 
 

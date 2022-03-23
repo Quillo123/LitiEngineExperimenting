@@ -6,17 +6,27 @@ import de.gurkenlabs.litiengine.resources.Resources;
 
 import java.awt.*;
 
-public class Enemy extends Mob implements IRenderable {
+public class Tower extends Mob implements IRenderable {
 
+    public enum TowerType {Cannon, FlameThrower};
 
-    Enemy(String name){
+    TowerType towerType = TowerType.Cannon;
+
+    Tower(String name, TowerType type){
         this.setName(name);
         this.initAnimationController();
     }
 
     private void initAnimationController() {
         IAnimationController controller = this.getControllers().getAnimationController();
-        Spritesheet prepare = Resources.spritesheets().get("Sprite_Cannon_1");
+
+        Spritesheet prepare;
+        switch (towerType){
+            case Cannon -> prepare = Resources.spritesheets().get("Sprite_Cannon_1");
+            case FlameThrower -> prepare = Resources.spritesheets().get("Sprite_Cannon_1");
+            default -> prepare = Resources.spritesheets().get("Sprite_Cannon_1");
+        }
+
         controller.add(new Animation(prepare, false));
     }
 

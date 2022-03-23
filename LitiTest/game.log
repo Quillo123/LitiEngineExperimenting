@@ -412,3 +412,169 @@ java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
 
 Mar 22, 2022 3:29:08 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:33:38 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:36:02 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:36:02 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException: Cannot invoke "de.gurkenlabs.litiengine.graphics.animation.IAnimationController.add(de.gurkenlabs.litiengine.graphics.animation.Animation)" because "controller" is null
+	at Player.initAnimationController(Player.java:45)
+	at Player.<init>(Player.java:29)
+	at Program.main(Program.java:42)
+
+Mar 22, 2022 3:38:20 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:38:20 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException: Cannot invoke "de.gurkenlabs.litiengine.graphics.animation.IAnimationController.add(de.gurkenlabs.litiengine.graphics.animation.Animation)" because "controller" is null
+	at Player.initAnimationController(Player.java:37)
+	at Player.<init>(Player.java:26)
+	at Program.main(Program.java:42)
+
+Mar 22, 2022 3:39:23 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:39:23 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException: Cannot invoke "de.gurkenlabs.litiengine.graphics.animation.IAnimationController.add(de.gurkenlabs.litiengine.graphics.animation.Animation)" because "controller" is null
+	at Player.initAnimationController(Player.java:38)
+	at Player.<init>(Player.java:27)
+	at Program.main(Program.java:42)
+
+Mar 22, 2022 3:40:55 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:40:55 PM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException: Cannot invoke "de.gurkenlabs.litiengine.graphics.animation.IAnimationController.add(de.gurkenlabs.litiengine.graphics.animation.Animation)" because "controller" is null
+	at Player.initAnimationController(Player.java:38)
+	at Player.<init>(Player.java:27)
+	at Program.main(Program.java:42)
+
+Mar 22, 2022 3:41:41 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:42:24 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:43:51 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:44:11 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 22, 2022 3:44:32 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:06:18 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:33:59 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:35:13 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:35:30 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:37:01 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:37:31 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:37:46 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:38:18 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:38:28 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:38:47 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:39:15 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:39:31 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:40:15 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:40:27 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:41:22 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:41:56 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:42:27 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:43:16 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:45:12 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:54:32 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:54:32 AM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap$KeySetView.add(ConcurrentHashMap.java:4652)
+	at de.gurkenlabs.litiengine.input.Mouse.onClicked(Mouse.java:240)
+	at TowerSpawner.<init>(TowerSpawner.java:12)
+	at GameController.init(GameController.java:18)
+	at Program.main(Program.java:38)
+
+Mar 23, 2022 10:55:36 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:55:36 AM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap$KeySetView.add(ConcurrentHashMap.java:4652)
+	at de.gurkenlabs.litiengine.input.Mouse.onClicked(Mouse.java:240)
+	at TowerSpawner.<init>(TowerSpawner.java:12)
+	at GameController.init(GameController.java:18)
+	at Program.main(Program.java:38)
+
+Mar 23, 2022 10:55:49 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:55:49 AM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap$KeySetView.add(ConcurrentHashMap.java:4652)
+	at de.gurkenlabs.litiengine.input.Mouse.onClicked(Mouse.java:240)
+	at TowerSpawner.<init>(TowerSpawner.java:12)
+	at GameController.init(GameController.java:18)
+	at Program.main(Program.java:38)
+
+Mar 23, 2022 10:55:58 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:55:58 AM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap$KeySetView.add(ConcurrentHashMap.java:4652)
+	at de.gurkenlabs.litiengine.input.Mouse.onClicked(Mouse.java:240)
+	at TowerSpawner.<init>(TowerSpawner.java:12)
+	at GameController.init(GameController.java:18)
+	at Program.main(Program.java:38)
+
+Mar 23, 2022 10:59:40 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 10:59:40 AM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException: Cannot invoke "de.gurkenlabs.litiengine.entities.IEntity.getCenter()" because the return value of "de.gurkenlabs.litiengine.graphics.PositionLockCamera.getLockedEntity()" is null
+	at de.gurkenlabs.litiengine.graphics.PositionLockCamera.getLockedCameraLocation(PositionLockCamera.java:38)
+	at de.gurkenlabs.litiengine.graphics.PositionLockCamera.updateFocus(PositionLockCamera.java:31)
+	at de.gurkenlabs.litiengine.graphics.PositionLockCamera.<init>(PositionLockCamera.java:22)
+	at Program.main(Program.java:48)
+
+Mar 23, 2022 11:00:02 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 11:00:45 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 11:01:09 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 11:02:31 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 11:05:57 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 11:06:45 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 11:08:06 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 11:08:42 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 11:09:19 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 11:10:19 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.
+Mar 23, 2022 11:10:54 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.8.2 of map "null" is greater than the supported version 1.2.x. Some features may not work.

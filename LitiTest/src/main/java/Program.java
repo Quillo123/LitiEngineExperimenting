@@ -6,6 +6,8 @@ import de.gurkenlabs.litiengine.environment.CreatureMapObjectLoader;
 import de.gurkenlabs.litiengine.environment.Environment;
 import de.gurkenlabs.litiengine.environment.IMapObjectLoader;
 import de.gurkenlabs.litiengine.environment.tilemap.IMapObject;
+import de.gurkenlabs.litiengine.graphics.Camera;
+import de.gurkenlabs.litiengine.graphics.PositionLockCamera;
 import de.gurkenlabs.litiengine.graphics.Spritesheet;
 import de.gurkenlabs.litiengine.gui.screens.GameScreen;
 import de.gurkenlabs.litiengine.gui.screens.Resolution;
@@ -35,13 +37,17 @@ public class Program {
 
         GameController.init();
 
-        Enemy enemy = new Enemy();
 
+
+        Enemy enemy = new Enemy("Enemy");
         Game.world().environment().add(enemy);
-
         enemy.setLocation(100, 100);
 
         CamerController camerController = new CamerController(Game.world().camera());
+
+        //Camera cam = new PositionLockCamera(GameController.player);
+        //Game.world().setCamera(cam);
+
 
         Game.start();
     }
